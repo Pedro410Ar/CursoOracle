@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>ONE - Encriptador de Palabras  - Pedro Arruvito</title>
+
+    <!--Llamado a CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Llamado a Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+ 
+    <!--Llamado a FontAwesome-->
+    <script src="https://kit.fontawesome.com/8218cadc15.js" crossorigin="anonymous"></script>
+
+    <!--Llamado a Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+    <header>
+        <h2>PROGRAMA ONE</h2>                 
+        <div id="logo"> <img src="img/alura3.png" width=400 height=auto alt="logo Alura"> </div>
+        <h2><i class="fas fa-mask"> </i>  &nbsp; Código Secreto  &nbsp; <i class="fas fa-mask"> </i> </h2>    
+    </header>
+
+    <main>              
+          <div id="leyenda">
+            <h3>¡Pon una frase secreta en el Encriptador de Palabras!!!</h3>
+            <p> <h6>El cifrado de mensajes se lleva practicando desde hace más de 4.000 años y, precisamente, el origen de la palabra criptografía lo encontramos en el griego: krypto, «oculto», y graphos, «escribir»; es decir, escritura oculta.</h6></p>
+          </div>
+        
+        <section class="container-fluid">
+          
+          <section class="form box">
+            <form action="">
+              <label for="input-texto" > <h3>Solo letras minúsculas </h3></label>
+              <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+              <input class="btn btn-primary" type="submit" value="encriptar!" id="btn-encriptar">
+              <input class="btn btn-primary" type="submit" value="desencriptar!" id="btn-desencriptar">
+              <input class="btn btn-primary" type="reset" value="borrar" id="btn-limpiar">
+            </form>
+          </section>
+        
+          <section class="msg box">
+            <form action="">
+              <h3>Mensaje encriptado:</h3>            
+              <input class="text-input" type="text" id="msg"></input>
+              <input class="btn btn-primary" type="submit" value="copiar" id="btn-copy">
+              <input class="btn btn-primary" type="reset" value="borrar" id="btn-limpiar1">
+            </form>
+          </section>
+          <br><br><br> 
+        </section>        
+       
+    </main>
+   
+    <footer>         
+        <h4>
+            <div class="links">
+              <br>
+              <a href="https://discord.com/channels/885135728080740392/885139386931478549" target="_blank">Discord</a> &nbsp;
+              <a href="https://github.com/" target="_blank">GitHub</a> &nbsp;
+              <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a> &nbsp;
+              <a href="https://app.aluracursos.com" target="_blank">Alura</a> &nbsp;           
+            </div> 
+        </h4>     
+
+          <footer class="page-footer font-small blue"> 
+          <div class="footer-copyright text-center py-3" > <h5> © 2022 - Pedro Arruvito </h5>
+          </div>        
+       
+    </footer>
+   
+    <!--Llamado a JS-->
+    <script src="myscript.js"></script>
+
+</body>
+</html>
+
